@@ -1,17 +1,17 @@
-//import './styles.css';
-// import 'bootstrap';
-// import 'bootstrap/dist/css/bootstrap.min.css';
-//import $ from 'jquery';
-//import { SpaceAge } from './Space-Age';
+import $ from 'jquery';
+import 'bootstrap';
+import './styles.css';
+import { GalacticAgeCalculator } from './Space-Age.js';
 
-//
-// $(document).ready(function() {
-//   $('#Space-Age-form').submit(function(event) {
-//     event.preventDefault();
-//     var goal = $('#goal').val();
-//     var output = SpaceAge(goal);
-//     output.forEach(function(element) {
-//       $('#solution').append("<li>" + element + "</li>");
-//     });
-//   });
-// });
+$(document).ready(function() {
+  $('#').submit(function(event) {
+    event.preventDefault();
+    //var row = $('#').val();
+
+    var output = new GalacticAgeCalculator();
+    output.checkHaiku();
+
+    $('ul#').append("<h1>" + "<p>" + output + "</p>" + "</h1>");
+
+  });
+});
