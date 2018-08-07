@@ -1,4 +1,4 @@
-### Galactic Age Calculator
+### Space-Age
 
 #### By: Brian Palowski
 #### Date: 8-5-2018
